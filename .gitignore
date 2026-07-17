@@ -1,0 +1,40 @@
+# Unity Library 캐시 제외
+/[Ll]ibrary/
+# Unity 임시 파일 제외
+/[Tt]emp/
+# Unity 중간 빌드 파일 제외
+/[Oo]bj/
+# Unity 빌드 결과 제외
+/[Bb]uild/
+# 복수 빌드 폴더 제외
+/[Bb]uilds/
+# Unity 로그 제외
+/[Ll]ogs/
+# 사용자별 Unity 설정 제외
+/[Uu]ser[Ss]ettings/
+# 메모리 캡처 제외
+/[Mm]emoryCaptures/
+# Unity Recorder 결과 제외
+/[Rr]ecordings/
+# Visual Studio 사용자 폴더 제외
+.vs/
+# JetBrains Rider 사용자 폴더 제외
+.idea/
+# Visual Studio Code 사용자 폴더 제외
+.vscode/
+# 자동 생성 C# 프로젝트 파일 제외
+*.csproj
+# 자동 생성 Visual Studio 솔루션 제외
+*.sln
+# 사용자별 IDE 설정 제외
+*.user
+# 사용자별 IDE 설정 제외
+*.userprefs
+# 디버그 데이터베이스 제외
+*.pidb
+# 프로그램 데이터베이스 제외
+*.pdb
+# Mono 디버그 데이터 제외
+*.mdb
+# Unity 시스템 정보 제외
+sysinfo.txt
