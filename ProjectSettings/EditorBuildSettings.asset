@@ -6,8 +6,32 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_ProjectD/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/_ProjectD/Scenes/Core/Bootstrap.unity
+    guid: 51395631c2ef4774798e196498e6cd66
+  - enabled: 1
+    path: Assets/_ProjectD/Scenes/Core/Splash.unity
+    guid: b65cc9108d044f44181e150bd562fa11
+  - enabled: 1
+    path: Assets/_ProjectD/Scenes/Menu/LanguageSelect.unity
+    guid: 4e5bebfd0b1024743b458d94f1d9eae7
+  - enabled: 1
+    path: Assets/_ProjectD/Scenes/Menu/MainMenu.unity
+    guid: bef710b4b989a7c4ab53345121750abe
+  - enabled: 1
+    path: Assets/_ProjectD/Scenes/Menu/Lobby.unity
+    guid: 6782c62befccd5242b30ebcbc195bcae
+  - enabled: 1
+    path: Assets/_ProjectD/Scenes/Menu/CommandHQ.unity
+    guid: 4876616e855ed4a4e93ceb37019501d6
+  - enabled: 1
+    path: Assets/_ProjectD/Scenes/Menu/Formation.unity
+    guid: c742de920e5c4f941a1b1fdc1846aad4
+  - enabled: 1
+    path: Assets/_ProjectD/Scenes/Menu/StageSelect.unity
+    guid: 3051617c9a60fbb43a10cc120424ad60
+  - enabled: 1
+    path: Assets/_ProjectD/Scenes/Battle/Battle.unity
+    guid: 36f4befce59902c4888e4e2eadefec8a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
