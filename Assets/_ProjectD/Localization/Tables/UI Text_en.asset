@@ -86,6 +86,14 @@ MonoBehaviour:
     m_Localized: Return to the main menu?
     m_Metadata:
       m_Items: []
+  - m_Id: 25492485308416
+    m_Localized: SAVE ERROR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25494561488896
+    m_Localized: Unable to read or write save data.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

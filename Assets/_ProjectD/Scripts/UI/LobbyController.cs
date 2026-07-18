@@ -6,7 +6,6 @@ public class LobbyController : MonoBehaviour // 로비 화면 제어
 {
     [Header("재화 표시")] // 재화 설정 구분
     [SerializeField] private TextMeshProUGUI currencyValueText; // 재화 값 텍스트
-    [SerializeField] private int temporaryCurrencyAmount; // 임시 재화 값
 
     [Header("메인 메뉴 복귀 팝업")] // 복귀 팝업 설정 구분
     [SerializeField] private LocalizedString returnTitle; // 현지화 팝업 제목
@@ -51,7 +50,7 @@ public class LobbyController : MonoBehaviour // 로비 화면 제어
         OpenScene(SceneNames.MainMenu); // 메인 메뉴 씬 요청
     }
 
-    private void RefreshCurrencyDisplay() // 재화 표시 갱신
+    private void RefreshCurrencyDisplay() // 저장 재화 표시 갱신
     {
         if (currencyValueText == null) // 텍스트 연결 확인
         {
@@ -59,7 +58,21 @@ public class LobbyController : MonoBehaviour // 로비 화면 제어
             return; // 표시 갱신 중단
         }
 
-        currencyValueText.text = temporaryCurrencyAmount.ToString(); // 임시 재화 값 표시
+        if (DataManager.Instance == null) // 데이터 관리자 존재 확인
+        {
+            Debug.LogError("DataManager를 찾을 수 없습니다."); // 관리자 누락 오류
+            currencyValueText.text = "0"; // 기본 재화 값 표시
+            return; // 표시 갱신 중단
+        }
+
+        if (!DataManager.Instance.HasLoadedData) // 현재 데이터 확인
+        {
+            Debug.LogError("불러온 게임 데이터가 없습니다."); // 데이터 누락 오류
+            currencyValueText.text = "0"; // 기본 재화 값 표시
+            return; // 표시 갱신 중단
+        }
+
+        currencyValueText.text = DataManager.Instance.Credits.ToString(); // 저장 크레딧 표시
     }
 
     private void OpenScene(string sceneName) // 공통 씬 이동

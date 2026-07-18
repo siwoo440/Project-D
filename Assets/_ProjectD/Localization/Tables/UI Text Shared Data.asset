@@ -83,6 +83,14 @@ MonoBehaviour:
     m_Key: lobby_return_message
     m_Metadata:
       m_Items: []
+  - m_Id: 25492485308416
+    m_Key: save_error_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25494561488896
+    m_Key: save_error_message
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
