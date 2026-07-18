@@ -57,6 +57,11 @@ public class SceneLoader : MonoBehaviour // 비동기 씬 로딩 관리
         }
 
         isLoading = true; // 로딩 상태 활성화
+        
+        if (UIManager.Instance != null) // UIManager 존재 확인
+        {
+            UIManager.Instance.ClosePopup(); // 활성 팝업 닫기
+        }
 
         if (loadingScreen != null) // 로딩 화면 연결 확인
         {
