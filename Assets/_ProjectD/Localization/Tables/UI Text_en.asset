@@ -26,6 +26,30 @@ MonoBehaviour:
     m_Localized: MAIN MENU
     m_Metadata:
       m_Items: []
+  - m_Id: 7649777680384
+    m_Localized: PRESS ANY KEY TO SKIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7654248808448
+    m_Localized: NEW GAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7656895414272
+    m_Localized: CONTINUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7726298562560
+    m_Localized: SETTINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7736952094720
+    m_Localized: CREDITS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7739607089152
+    m_Localized: EXIT
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

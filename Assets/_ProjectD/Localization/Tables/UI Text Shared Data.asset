@@ -23,6 +23,30 @@ MonoBehaviour:
     m_Key: main_menu_title
     m_Metadata:
       m_Items: []
+  - m_Id: 7649777680384
+    m_Key: splash_skip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7654248808448
+    m_Key: main_menu_new_game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7656895414272
+    m_Key: main_menu_continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7726298562560
+    m_Key: main_menu_settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7736952094720
+    m_Key: main_menu_credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7739607089152
+    m_Key: main_menu_exit
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
