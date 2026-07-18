@@ -50,6 +50,42 @@ MonoBehaviour:
     m_Localized: EXIT
     m_Metadata:
       m_Items: []
+  - m_Id: 15264490455040
+    m_Localized: LOBBY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15283901693952
+    m_Localized: CREDITS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15284744749056
+    m_Localized: COMMAND HQ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15285369700352
+    m_Localized: FORMATION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15286061760512
+    m_Localized: STAGE SELECT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15286770597888
+    m_Localized: MAIN MENU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15287584292864
+    m_Localized: BACK TO LOBBY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15288280547328
+    m_Localized: RETURN TO MAIN MENU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15290004406272
+    m_Localized: Return to the main menu?
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

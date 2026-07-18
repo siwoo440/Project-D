@@ -47,6 +47,42 @@ MonoBehaviour:
     m_Key: main_menu_exit
     m_Metadata:
       m_Items: []
+  - m_Id: 15264490455040
+    m_Key: lobby_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15283901693952
+    m_Key: lobby_resource_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15284744749056
+    m_Key: lobby_command_hq
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15285369700352
+    m_Key: lobby_formation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15286061760512
+    m_Key: lobby_stage_select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15286770597888
+    m_Key: lobby_return_main_menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15287584292864
+    m_Key: common_return_lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15288280547328
+    m_Key: lobby_return_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15290004406272
+    m_Key: lobby_return_message
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
