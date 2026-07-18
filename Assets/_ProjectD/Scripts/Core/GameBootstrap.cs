@@ -24,7 +24,15 @@ public class GameBootstrap : MonoBehaviour // 게임 시작 흐름 관리
             yield break; // 시작 흐름 중단
         }
 
+        if (LanguageManager.Instance == null) // 언어 관리자 존재 확인
+        {
+            Debug.LogError("LanguageManager를 찾을 수 없습니다."); // 언어 관리자 오류
+            yield break; // 초기화 중단
+        }
+
+        yield return LanguageManager.Instance.InitializeAsync(); // Localization 초기화 대기
         yield return SceneLoader.Instance.LoadSceneAsync(SceneNames.Splash); // 스플래시 씬 로딩
+
         yield return new WaitForSecondsRealtime(splashDuration); // 로고 표시 시간 대기
 
         string nextSceneName = GameManager.Instance.HasSelectedLanguage // 언어 선택 기록 확인
